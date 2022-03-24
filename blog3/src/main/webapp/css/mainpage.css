@@ -1,0 +1,194 @@
+body {
+    background-color: #f5f0e0;
+}
+
+#blog-gnb {
+    width: 1076px;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: right;
+}
+
+#logined-id {
+    width: 90px;
+    height: 33px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+#login-btn {
+    position: relative;
+
+    width: 60px;
+    height: 33px;
+
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    border: solid #ccc 1px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+#logout-btn {
+    all: unset;
+    position: relative;
+
+    width: 60px;
+    height: 33px;
+
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    border: solid #ccc 1px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.container {
+    position: relative;
+    top: 60px;
+    width: 1076px;
+    height: auto;
+    padding: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-section {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#left-section {
+    float: left;
+}
+
+
+#profile {
+    position: relative;
+    
+    width: 160px;
+    height: 80px;
+    padding: 6px 3px;
+    
+    background-color: #fff;
+}
+
+#userID {
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#greetings {
+    margin: 5px 3px;
+    font-size: 13px;
+}
+
+#writing-btn {
+    color:#000;
+    margin: 0 3px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration-line : none;
+}
+
+#writing-btn:hover {
+    text-decoration: underline;
+}
+
+#category {
+    position: relative;
+
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+    padding: 3px 3px;
+
+    background-color: #fff;
+}
+
+.categoryTitle {
+    margin: 0 0;
+    color: #eee0b7;
+}
+
+.categoryText {
+    margin: 2px 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.categoryText:hover {
+    text-decoration: underline;
+}
+
+#right-section {
+    display: inline-block;
+}
+
+#main {
+    width: 900px;
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+#writingList {
+    position: relative;
+    top: 20px;
+    width: auto;
+    height: auto;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+#toc-content {
+    display: none;
+    margin-top: 15px;
+}
+
+#toc-toggle {
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+#toc-toggle:hover {
+    text-decoration: underline;
+}
+
+#toc-title {
+    width: 750px;
+    text-align: left;
+}
+
+#toc-date {
+    text-align: right;
+}
+
+#writing-section {
+    position: relative;
+    top: 30px;
+    padding: 20px;
+}
+
+#writing-title {
+    font-size: 40px;
+}
+
+#writing-date {
+    color: #bbb;
+    margin: 0 0 0 6px;
+}
